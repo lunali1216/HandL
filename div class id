@@ -1,0 +1,19 @@
+<html lang="en" class="html">
+<head>
+    <title>div class and id</title>
+</head>
+<body>
+    <div class="first">
+        <prv> 
+            i am liya eskinder 
+            i am grade 11 student 
+        </prv>
+    </div>
+    <div id="second">
+        <prv>
+            i am learning coding
+            and going to learn programing
+        </prv>
+    </div>
+</body>
+</html>
