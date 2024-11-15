@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+
+.text-overlay {
+    position: absolute;
+    bottom: 10px; /* Adjust as needed */
+    left: 10px;   /* Adjust as needed */
+    color: white; /* Text color */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 5px; /* Padding around text */
+    border-radius: 5px; /* Rounded corners */
+}
+
+  </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="/task/key.png" alt="Description of image" class="responsive-image">
+        <div class="text-overlay"><h1>key bottom
+        </h1></div>
+    </div>
+</body>
